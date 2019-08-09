@@ -1,0 +1,18 @@
+{
+  "title": "Video react demmo",
+  "dependencies": {
+    "hls.js": "0.10.1",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-prism": "4.3.2",
+    "reactstrap": "6.3.1",
+    "video-react": "0.13.0"
+  },
+  "keywords": [
+    "hls.js",
+    "video-react"
+  ],
+  "name": "video-react-demo",
+  "description": ""
+}

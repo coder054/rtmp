@@ -1,0 +1,25 @@
+{
+  "title": "Video react demmo",
+  "homepage": "https://coder054.github.io/rtmp",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-flow-player": "^1.2.1"
+  },
+  "name": "video-react-demo",
+  "description": "test rtmp",
+  "version": "0.0.40",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "rmcache": "rm -rf node_modules/gh-pages/.cache",
+    "predeploy": "npm run rmcache & npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
