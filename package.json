@@ -11,7 +11,7 @@
   "description": "test rtmp",
   "version": "0.0.40",
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
